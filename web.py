@@ -5,7 +5,7 @@ todos = functions.get_todos()
 
 st.set_page_config(
     page_title="Todo Web App",
-    layour="wide",
+    layout="wide",
     initial_sidebar_state="expanded",
     menu_items={"My Github": "https://github.com/0garrow"},
 )
