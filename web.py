@@ -7,7 +7,7 @@ st.set_page_config(
     page_title="Todo Web App",
     layout="wide",
     initial_sidebar_state="expanded",
-    menu_items={"My Github": "https://github.com/0garrow"},
+    menu_items={"About": "https://github.com/0garrow"},
 )
 
 
