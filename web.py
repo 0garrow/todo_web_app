@@ -20,7 +20,9 @@ def add_todo():
 
 st.title("My Todo App")
 st.subheader("This is my todo app.")
-st.write("This app is to increase your <b>productivity</b>.", unsafe_allow_html=True)
+st.write(
+    "This app is to increase your <u><b>productivity</b></u>.", unsafe_allow_html=True
+)
 
 st.text_input(
     label="Enter todo",
